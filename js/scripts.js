@@ -2,13 +2,15 @@
 var pos=0, test, test status, questions, choices, a, b, c, d, correct = 0;
 
 //using multidimensional array
-var questions = [
+var questions = $("input:radio[name=questions]:checked").val()[
   ["JavaScript is the same as Java", "True", "False", "B"],
   ["What JavaScript keyword declares a variable?","var", "if", "for", "create", "A"],
   ["How do you create a function in JavaScript?", "function.Myfunction()", "function.myFunction()", "function myFunction()", "C"],
   ["JavaScript is intepreted by ___", "Client", "Server", "Object", "None of the above", "B"]
   [ "JavaScript entities start with _______ and end with _________.", "Semicolon, colon", "Semicolon, Ampersand", "Ampersand, colon", "Ampersand, semicolon", "D"]
 ];
+
+
 function _(x){
   return document.getElementByid(x);
 }
@@ -47,3 +49,5 @@ function checkAnswer (){
     renderQuestion ();
   }
 }
+
+var flavor = $("input:radio[name=flavor]:checked").val();
