@@ -9,11 +9,13 @@ img {
 div.box {
 height: 300px;
 width: 300px;
-background-color: #bbbbaa;}
+padding-left: 300px;
+background-color: #bbbbaa;
+}
 p {
 height: 75%;
 width: 75%;
-background-color: #0088dd;}
+}
 input#submit {
 color: #444444;
 text-shadow: 0px 1px 1px #ffffff;
@@ -24,7 +26,9 @@ background:
 background:
 -o-linear-gradient(top, #beeae9, #a8cfce);
 background:
--ms-linear-gradient(top, #beeae9, #a8cfce);}
+-ms-linear-gradient(top, #beeae9, #a8cfce);
+}
+
 input#submit:hover {
 color: #333333;
 border: 1px solid #a4a4a4;
