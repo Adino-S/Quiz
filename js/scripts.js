@@ -17,15 +17,17 @@ function renderQuestion(){
     _("test_status").innerHTML = "Question" + (pos+1)+"of"+questions.length;
     questions=questions[pos][0];
     chA=questions [pos][1];
-    chA=questions [pos][2];
-    chA=questions [pos][3];
-    chA=questions [pos][4];
-    chA=questions [pos][5];
-    chA=questions [pos][6];
-    chA=questions [pos][7];
-    chA=questions [pos][8];
-
+    chB=questions [pos][2];
+    chC=questions [pos][3];
+    chD=questions [pos][4];
+    test.innerHTML = "<h3>"+question+"</h3>";
+    // Append to the data above by adding +=
+    test.innerHTML += "<input type='radio' name='choices' value='A'>"+chA+"br">;
+    test.innerHTML += "<input type='radio' name='choices' value='B'>"+chB+"br">;
+    test.innerHTML += "<input type='radio' name='choices' value='C'>"+chC+"br">;
+    test.innerHTML += "<input type='radio' name='choices' value='D'>"+chD+"br">
 }
+
 
 var answer;
 correct = true;
