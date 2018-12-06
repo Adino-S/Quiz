@@ -14,7 +14,12 @@ function _(x){
 }
 function renderQuestion(){
   test= _("questions");
-    _("test_status").innerHTML = "Question" + (pos+1)+"of"+questions.length;
+  if (pos >= questions.length){
+    test.innerHTML= <h2>You got "+correct+" of "+questions.length+";questions correct</h2>;
+    correct=0;
+    return false;
+  }
+    _("totalMarks").innerHTML = "Question" + (pos+1)+"of"+questions.length;
     questions=questions[pos][0];
     chA=questions [pos][1];
     chB=questions [pos][2];
@@ -22,29 +27,23 @@ function renderQuestion(){
     chD=questions [pos][4];
     test.innerHTML = "<h3>"+question+"</h3>";
     // Append to the data above by adding +=
-    test.innerHTML += "<input type='radio' name='choices' value='A'>"+chA+"br">;
-    test.innerHTML += "<input type='radio' name='choices' value='B'>"+chB+"br">;
-    test.innerHTML += "<input type='radio' name='choices' value='C'>"+chC+"br">;
-    test.innerHTML += "<input type='radio' name='choices' value='D'>"+chD+"br">
-}
-
-
-var answer;
-correct = true;
-inCorrect= false;
-
-var response = document.getElementByld ("answer"){
-
-}
-
-
-
-JAVASCRIPT
-var elStock = document.getElementByld('stock');
-elStock.className = inStock;
-var el Ship = document .getElementByid('shipping');
-elShip.className = shipping ;
-
-function test (form){
-  for (j)
+    test.innerHTML += "<input type='radio' name='choices' value='A'>"+chA+"<br>";
+    test.innerHTML += "<input type='radio' name='choices' value='B'>"+chB+"<br>";
+    test.innerHTML += "<input type='radio' name='choices' value='C'>"+chC+"<br>";
+    test.innerHTML += "<input type='radio' name='choices' value='D'>"+chD+"<br>";
+    test.innerHTML += "<input type=onClick name='choices' value='D'>"+chD+"<br>";
+  }
+function checkAnswer (){
+  choices= document.getElementsByName('choices');
+  // for loop to rub over the array and see what the user's choice is
+  for (var 1=0; 1<choices.length; i++){
+    if (choices[i].checked){
+      choice=choices[i].value;
+    }
+  }
+  if (choice==questions[pos][0]){
+    correct ++;
+    pos ++;
+    renderQuestion ();
+  }
 }
