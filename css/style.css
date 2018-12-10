@@ -1,7 +1,16 @@
 .jumbotron{
-  background image: url("../img/relax.jpg");
+  background: url("../img/ocean.jpeg")top center;
+  background-size: control;
+  margin-top: 1em;
+  padding top: 3em;
+  padding bottom: 3em;
+  color: brown;
+  text-align: center;
 }
 
+.well{
+  background: url("../img/relax.jpg")top;
+}
 /* this is a div: how do format a div? */
 #test{
   border: #000 1px;
