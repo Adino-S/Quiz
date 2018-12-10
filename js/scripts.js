@@ -20,12 +20,12 @@ function renderQuestion(){
     correct=0;
     return false;
   }
-    _("totalMarks").innerHTML = "Question" + (pos+1)+"of"+questions.length;
-    questions=questions[pos][0];
-    chA=questions [pos][1];
-    chB=questions [pos][2];
-    chC=questions [pos][3];
-    chD=questions [pos][4];
+    _("totalMarks").innerHTML = "q1" + (pos+1)+"of"+questions.length;
+    questions=questions[pos][1];
+    q1=questions [pos][1];
+    q2=questions [pos][2];
+    q3=questions [pos][3];
+    q4=questions [pos][4];
     test.innerHTML = "<h3>"+question+"</h3>";
     // Append to the data above by adding +=
     test.innerHTML += "<input type='radio' name='choices' value='A'>"+chA+"<br>";
