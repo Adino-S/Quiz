@@ -10,7 +10,6 @@ var questions = $("input:radio[name=questions]:checked").val()[
   [ "JavaScript entities start with _______ and end with _________.", "Semicolon, colon", "Semicolon, Ampersand", "Ampersand, colon", "Ampersand, semicolon", "D"]
 ];
 
-
 function _(x){
   return document.getElementByid(x);
 }
