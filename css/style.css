@@ -1,6 +1,7 @@
-img {
-  display: none;
+.jumbotron{
+  background image: url("../img/relax.jpg");
 }
+
 /* this is a div: how do format a div? */
 #test{
   border: #000 1px;
