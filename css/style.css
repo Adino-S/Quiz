@@ -2,6 +2,10 @@ body {
    background-image: url("../img/gait.png");
    background-color: #cccccc;
 }
+#hide{
+  display: none;
+}
+
 .jumbotron{
   background: url("../img/ocean.jpeg")top center;
   background-size: control;
