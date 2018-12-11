@@ -1,4 +1,4 @@
-![JavaScrip Quiz](https://github.com/Adino-S/triangle-tracker/blob/master/Images/trigame.png)
+![JavaScrip Quiz](https://github.com/Adino-S/Quiz/blob/master/img/javaquiz.png)
 
 # ![**JAVA SCRIPT QUIZ**](https://adino-s.github.io/triangle-tracker/)
 ### This is a fun game of identifying types of triangles.
@@ -14,8 +14,6 @@ This webpage prompts three main behaviours from the user:
 - The user must prompt for a response through clicking the Submit Button that triggers the results' calculation
 -The user then reads the result on an alert, which indicates the right answer.
 
-[The Moving Triangle Game](file:///Users/sharonolago/Documents/moringa-school-projects/triangle-tracker/movingtriangle.html)
-
 ## Set Up Instruction
 - Get access to the internet
 - Sign into your github pages. Set up would require access to github pages; the webpage uses an index file linked on github pages. This would require membership and access to the Adino Olago repository.
@@ -26,10 +24,10 @@ This webpage prompts three main behaviours from the user:
 
 # **TECHNOLOGIES USED**
 ## HTML, CSS & BOOTSTRAP
-The front end of the page is created on a html web page, and formatted using bootsrap and a custom-CSS style sheet.
+The front end of the page is created on a html web page, and formatted using bootstrap and a custom-CSS style sheet.
 
 ## JavaScript & jQuery
-The quiz was developed using an arrays and for loop. Control flows were used to direct the response provided to both the user, and the prompt.
+The backend uses an array push method to assign value and account for correct answers. 
 
 # Bugs
 None at the moment, but would love to hear your feedback!
@@ -54,7 +52,7 @@ copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
