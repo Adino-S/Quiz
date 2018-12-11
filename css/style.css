@@ -1,5 +1,5 @@
 body {
-   background-image: url("../img/gait.png");
+   background-image: url("../img/flowers.jpeg");
    background-color: #cccccc;
 }
 #hide{
@@ -7,12 +7,12 @@ body {
 }
 
 .jumbotron{
-  background: url("../img/ocean.jpeg")top center;
+  background: url("../img/wood.jpg")top center;
   background-size: control;
   margin-top: 1em;
   padding top: 3em;
   padding bottom: 3em;
-  color: brown;
+  color: white;
   text-align: center;
   font-style: bold;
 }
@@ -20,9 +20,9 @@ body {
 .well{
   margin-left: 3em;
   margin-right: 3em;
-  background-color: #5F9EA0;
+  background-color: #BCAAA4;
   font-size: 1.5em;
-  color: #F0FFFF;
+  color: #3E2723;
   font-style: normal;
 }
 
@@ -37,15 +37,23 @@ width: 75%;
 }
 
 input#submit {
-color: #444444;
+color: black;
 font-style: bold;
 text-shadow: 0px 1px 1px #ffffff;
 border-bottom: 2px solid #b2b2b2;
-background-color: #b9e4e3;
+background-color: white;
 }
 
 input#submit:hover {
 color: #333333;
 border: 1px solid #a4a4a4;
 border-top: 2px solid #b2b2b2;
+}
+
+input#total{
+color: #3E2723;
+font-style: bold;
+text-shadow: 0px 1px 1px #ffffff;
+border-bottom: 2px solid #b2b2b2;
+background-color: white;
 }
