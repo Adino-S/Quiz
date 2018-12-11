@@ -25,7 +25,7 @@ This webpage prompts three main behaviours from the user:
 # Specifications
 
 # **TECHNOLOGIES USED**
-##HTML, CSS & BOOTSTRAP
+## HTML, CSS & BOOTSTRAP
 The front end of the page is created on a html web page, and formatted using bootsrap and a custom-CSS style sheet.
 
 ## JavaScript & jQuery

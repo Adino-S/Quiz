@@ -1,14 +1,8 @@
-// To keep track where the user is on the text: starts with 0
-var pos=0, test, test status, questions, choices, a, b, c, d, correct = 0;
+var totalMarks= questions.querySelectorAll(correct);
 
-//using multidimensional array
-var questions = $("input:radio[name=questions]:checked").val()[
-  ["JavaScript is the same as Java", "True", "False", "B"],
-  ["What JavaScript keyword declares a variable?","var", "if", "for", "create", "A"],
-  ["How do you create a function in JavaScript?", "function.Myfunction()", "function.myFunction()", "function myFunction()", "C"],
-  ["JavaScript is intepreted by ___", "Client", "Server", "Object", "None of the above", "B"]
-  [ "JavaScript entities start with _______ and end with _________.", "Semicolon, colon", "Semicolon, Ampersand", "Ampersand, colon", "Ampersand, semicolon", "D"]
-];
+
+
+
 
 function _(x){
   return document.getElementByid(x);
@@ -26,13 +20,7 @@ function renderQuestion(){
     q2=questions [pos][2];
     q3=questions [pos][3];
     q4=questions [pos][4];
-    test.innerHTML = "<h3>"+question+"</h3>";
-    // Append to the data above by adding +=
-    test.innerHTML += "<input type='radio' name='choices' value='A'>"+chA+"<br>";
-    test.innerHTML += "<input type='radio' name='choices' value='B'>"+chB+"<br>";
-    test.innerHTML += "<input type='radio' name='choices' value='C'>"+chC+"<br>";
-    test.innerHTML += "<input type='radio' name='choices' value='D'>"+chD+"<br>";
-    test.innerHTML += "<input type=onClick name='choices' value='D'>"+chD+"<br>";
+
   }
 function checkAnswer (){
   choices= document.getElementsByName('choices');
@@ -49,4 +37,8 @@ function checkAnswer (){
   }
 }
 
-var flavor = $("input:radio[name=flavor]:checked").val();
+// ["JavaScript is the same as Java", "True", "False", "B"],
+// ["What JavaScript keyword declares a variable?","var", "if", "for", "create", "A"],
+// ["How do you create a function in JavaScript?", "function.Myfunction()", "function.myFunction()", "function myFunction()", "C"],
+// ["JavaScript is intepreted by ___", "Client", "Server", "Object", "None of the above", "B"]
+// [ "JavaScript entities start with _______ and end with _________.", "Semicolon, colon", "Semicolon, Ampersand", "Ampersand, colon", "Ampersand, semicolon", "D"]
