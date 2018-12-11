@@ -1,6 +1,6 @@
 ![JavaScrip Quiz](https://github.com/Adino-S/Quiz/blob/master/img/javaquiz.png)
 
-#  JAVA SCRIPT QUIZ (https://adino-s.github.io/Quiz/)
+#  JAVASCRIPT QUIZ (https://adino-s.github.io/Quiz/)
 
 ## Created by **ADINO OLAGO**
 
@@ -23,9 +23,7 @@ This webpage prompts three main behaviours from the user:
 -   Search for Adino Olago on github and select the ,Quiz repository.
 -   Git-hub Webpage is linked to the title of the file.
 
-# Specifications
-
-# **TECHNOLOGIES USED**
+# **Technologies Used**
 
 ## HTML, CSS & BOOTSTRAP
 
