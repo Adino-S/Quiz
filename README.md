@@ -1,6 +1,6 @@
 ![JavaScrip Quiz](https://github.com/Adino-S/Quiz/blob/master/img/javaquiz.png)
 
-# ![\*\*JAVA SCRIPT QUIZ\*\*](https://adino-s.github.io/triangle-tracker/)
+# \*\*JAVA SCRIPT QUIZ\*\* (https://adino-s.github.io/triangle-tracker/)
 
 ## Created by **ADINO OLAGO**
 
