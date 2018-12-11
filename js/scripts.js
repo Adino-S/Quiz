@@ -1,24 +1,17 @@
-var questions = [];
-var score = 0;
+// var questions = [];
+// var score = 0;
+//
+$(document).ready(function(){
+  
+})
 
-
-  for (var i = 0; i<choices.length; i++) {
-    var response = radio.check (questions ["i"]);
-    if(response == questions[1].correct){
-      correct ++;
-      alert("Correct!")
+  for (var i = 0; i<questions.length; i++) {
+    var response == radio[i].check;
+    if(response == radio.correct){
+      score++;
+    }
     }
 
-    }
-
-var totalMarks= document.querySelectorAll(".correct");
-
-    _("totalMarks").document = "q1" + (pos+1)+"of"+questions.length;
-    questions=questions[pos][1];
-    q1=questions [pos][1];
-    q2=questions [pos][2];
-    q3=questions [pos][3];
-    q4=questions [pos][4];
 
 
 
