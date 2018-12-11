@@ -1,18 +1,9 @@
-var totalMarks= questions.querySelectorAll(correct);
-
-
-
-
-
-function _(x){
-  return document.getElementByid(x);
+var totalMarks= document.querySelectorAll(".correct");
+  for (var i = 0; i<choices.length; i++) {
+    response = radio.check;
 }
-function renderQuestion(){
-  test= _("questions");
-  if (pos >= questions.length){
-    test.innerHTML= <h2>You got "+correct+" of "+questions.length+";questions correct</h2>;
-    correct=0;
-    return false;
+
+}
   }
     _("totalMarks").innerHTML = "q1" + (pos+1)+"of"+questions.length;
     questions=questions[pos][1];
