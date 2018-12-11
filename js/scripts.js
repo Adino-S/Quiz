@@ -1,33 +1,29 @@
-var totalMarks= document.querySelectorAll(".correct");
-  for (var i = 0; i<choices.length; i++) {
-    response = radio.check;
-}
+var questions = [];
+var score = 0;
 
-}
-  }
-    _("totalMarks").innerHTML = "q1" + (pos+1)+"of"+questions.length;
+
+  for (var i = 0; i<choices.length; i++) {
+    var response = radio.check (questions ["i"]);
+    if(response == questions[1].correct){
+      correct ++;
+      alert("Correct!")
+    }
+
+    }
+
+var totalMarks= document.querySelectorAll(".correct");
+
+    _("totalMarks").document = "q1" + (pos+1)+"of"+questions.length;
     questions=questions[pos][1];
     q1=questions [pos][1];
     q2=questions [pos][2];
     q3=questions [pos][3];
     q4=questions [pos][4];
 
-  }
-function checkAnswer (){
-  choices= document.getElementsByName('choices');
-  // for loop to rub over the array and see what the user's choice is
-  for (var 1=0; 1<choices.length; i++){
-    if (choices[i].checked){
-      choice=choices[i].value;
-    }
-  }
-  if (choice==questions[pos][0]){
-    correct ++;
-    pos ++;
-    renderQuestion ();
-  }
-}
 
+
+
+// Correct Answer
 // ["JavaScript is the same as Java", "True", "False", "B"],
 // ["What JavaScript keyword declares a variable?","var", "if", "for", "create", "A"],
 // ["How do you create a function in JavaScript?", "function.Myfunction()", "function.myFunction()", "function myFunction()", "C"],
